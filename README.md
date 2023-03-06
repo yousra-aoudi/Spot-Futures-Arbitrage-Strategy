@@ -5,10 +5,10 @@ Classes
 
 The strategy is based on four main classes:
 
-SpotFuturesRelationship: Contains methods to investigate the lead-lag relationship between futures and spot prices, analyze the pricing efficiency of the market, and apply econometric models to study the relationship between the two.
-SpotPortfolioConstruction: Includes methods to construct a spot portfolio to track the trend of futures, obtain higher returns through the portfolio with higher fitting accuracy, minimum tracking error, convenient transaction, and lower cost, and replicate the portfolio of constituent stocks or construct the ETF.
-FuturesPricingArbitrageIntervals: Has methods to analyze non-arbitrage intervals and determine profitable arbitrage opportunities based on the deviation between stock index futures and spot stock. The class employs general equilibrium models to develop a closed-end equilibrium pricing model for stock index futures and calculate the upper and lower boundaries of the non-arbitrage intervals through the combination of bid and ask spreads.
-ArbitragePredictionUsingML: Contains methods to predict the spread between assets using machine learning models such as Back Propagation (BP) neural network, Long Short-Term Memory (LSTM) neural network, or support vector regression, and establish an arbitrage strategy.
+- SpotFuturesRelationship: Contains methods to investigate the lead-lag relationship between futures and spot prices, analyze the pricing efficiency of the market, and apply econometric models to study the relationship between the two.
+- SpotPortfolioConstruction: Includes methods to construct a spot portfolio to track the trend of futures, obtain higher returns through the portfolio with higher fitting accuracy, minimum tracking error, convenient transaction, and lower cost, and replicate the portfolio of constituent stocks or construct the ETF.
+- FuturesPricingArbitrageIntervals: Has methods to analyze non-arbitrage intervals and determine profitable arbitrage opportunities based on the deviation between stock index futures and spot stock. The class employs general equilibrium models to develop a closed-end equilibrium pricing model for stock index futures and calculate the upper and lower boundaries of the non-arbitrage intervals through the combination of bid and ask spreads.
+- ArbitragePredictionUsingML: Contains methods to predict the spread between assets using machine learning models such as Back Propagation (BP) neural network, Long Short-Term Memory (LSTM) neural network, or support vector regression, and establish an arbitrage strategy.
 Usage
 
 To use this strategy, you can simply clone the repository to your local machine and run the main.py file. The file contains examples of how to use each of the classes in the strategy.
